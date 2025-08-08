@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+button{
+    font-family: 'Segoe UI', Verdana;
+    font-size: 2.5rem;
+    padding: 1rem 2rem;
+    border: 3px solid #fff;
+    border-radius: 1.5rem ;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+    outline: none;
+}
+@media screen and (max-width:450px){
+    button{
+        font-size: 1.3rem;
+    }
+    
+}
