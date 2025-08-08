@@ -4,7 +4,7 @@ let randomNumber=()=>{
 };
 let changeColor=()=>{
     let randomColor=`rgb(${randomNumber()},${randomNumber()},${randomNumber()})`;
-    // document.body.style.backgroundColor=randomColor;
+    document.body.style.backgroundColor=randomColor;
 };
 button.addEventListener("click", changeColor);
 window.addEventListener("load", changeColor);
